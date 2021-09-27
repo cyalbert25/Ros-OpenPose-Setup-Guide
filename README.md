@@ -13,7 +13,7 @@
     
     And after configuring CMake successfully, don't forget to compile it.
 
-2. Install OpenPose
+2. Install [OpenPose](https://github.com/CMU-Perceptual-Computing-Lab/openpose)
 
     Although it's recommended to install OpenPose in the project-wide, you can also install it system-widely if you are the only user of the machine.
     
@@ -34,7 +34,7 @@
     
 
 
-2. Install realsense-ros
+2. Install [realsense-ros](https://github.com/IntelRealSense/realsense-ros)
     ```
     sudo apt-get install ros-$ROS_DISTRO-realsense2-camera
     sudo apt-get install ros-$ROS_DISTRO-realsense2-description
@@ -66,7 +66,7 @@
 ```
 # Terminal 1
 roslaunch ros_openpose run.launch
-# Termial 2
+# Terminal 2
 rostopic echo /frame
 ```
 
