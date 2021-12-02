@@ -113,6 +113,24 @@ persons:
     ```
     #!/usr/bin/env python3
     ```
+2. Can Not find Protobuf, try this
+    ```
+    sudo apt-get install protobuf-compiler libprotobuf-dev
+    ```
+3. Can Not find OpenCV
+    ```
+    sudo apt update
+    sudo apt install libopencv-dev python3-opencv
+    ```
+4. Unsupported GNU version! gcc versions later than 8 are not supported, try configure [gcc alternative](https://en.opensuse.org/User:Tsu2/gcc_update-alternatives) 
+
+5. Can Not fin certain lib folder, try this
+    ```
+    sudo apt-get install libatlas-base-dev
+    sudo apt-get install libhdf5-dev
+    sudo apt install libboost-filesystem1.71-dev
+
+    ```
 
 ## TODO
 1. GPU Mode
